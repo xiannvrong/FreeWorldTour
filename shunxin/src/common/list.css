@@ -1,0 +1,28 @@
+.common_list{
+    width: 100%;
+    height: 0.98rem;
+    background: #ffffff;
+    border-bottom: 1px solid #f1f1f1;
+}
+.common_list_sub{
+    width: 88%;
+    margin: auto;
+    display: flex;
+    height: 100%;
+    line-height: 0.98rem;
+    justify-content: space-between;
+    font-size: 0.24rem;
+}
+.common_list_sub p:nth-child(1){
+    color: #333333;
+}
+.common_list_sub p:nth-child(2){
+    color: #999999;
+    position: relative;
+}
+.common_list_sub .van-icon{
+    position: absolute;
+    right: -0.3rem;
+    top: 50%;
+    transform: translateY(-50%);
+}
